@@ -8,7 +8,7 @@ m = 3
 while o < m :
     note = random.randint (1, 8)
     # f_name = 'audio_yj/{0}.mp3'.format(str(i)) ### 这里的相对路径不知道为什么不对
-    f_name = 'C:/Users/和志明/PycharmProjects/pythonProject/audio_yj/{0}.mp3'.format (str (note))
+    f_name = 'E:/python/python_test2/audio_yj/{0}.mp3'.format (str (note))
     while True:
         os.system (f_name)
         # time.sleep(5)
